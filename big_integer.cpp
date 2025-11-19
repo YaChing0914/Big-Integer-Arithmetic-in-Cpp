@@ -207,7 +207,7 @@ public:
 int main() 
 {
     ifstream fin("testbench.txt"); //輸入 
-    ofstream fout("HW1_N26134235.txt"); //輸出
+    ofstream fout("ans.txt"); //輸出
     string x, y; //用字串 x、y 接收
     while (fin >> x >> y) 
     {
